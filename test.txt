@@ -1,0 +1,1 @@
+set up new github updating mechanism - if all goes well , this file should become visible at nyxnet.lgbt/test.txt at 5:00 PM est :3
