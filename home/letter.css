@@ -1,0 +1,135 @@
+@font-face
+{
+  font-family: "Yoster";
+  src: url(/home/asset/font/yoster.ttf) format('truetype'); 
+}
+
+body {
+ overflow: clip;
+}
+
+.bg {
+  background-image: url('/home/asset/strawb-picnic.png');
+  color: black;
+  font-family: Verdana;
+  margin: 0px;
+}
+
+#container {
+  position: relative;
+  width: 100%;
+}
+
+.letter {
+  display: inline-block;
+  
+  border-image: url('/home/asset/peachletter.png');
+  border-image-repeat: round;
+  border-image-outset: 16px 32px 48px 16px;
+  border-image-slice: 32 112 80 32 fill; 
+  
+  width: 80%;
+  height: 75%;
+  min-height: 575px;
+  
+  border-image-width: 32px 112px 80px 32px; 
+  
+  text-align: left;
+  
+  align-self: center; 
+  
+  color: black;
+  font-family: Verdana;
+}
+
+.letter-charm {
+  display: inline-block;
+  position: relative;
+  top: 16px;
+  left: 16px;
+  padding: 16px;
+}
+
+.letter-signature {
+  display: inline-block;
+  position: relative;
+  
+  margin: 16px;
+  margin-top: 48px;
+  margin-bottom: 24px;
+  height: 128px;
+  width: calc(100% - 256px);
+  
+  text-align: left;
+  
+  border-image: url('/home/asset/awwwwnyx.png');
+  border-image-repeat: round;
+  border-image-slice: 90 206 0 62 fill; 
+  border-image-width: 90px 206px 0px 62px;
+}
+
+.letter-cut {
+  display: inline-block;
+  position: relative;
+  
+  margin: 16px;
+  margin-right: 16px;
+  height: 5px;
+  width: calc(100% - 32px);
+  
+  text-align: left;
+  
+  border-image: url('/home/asset/letter-cut.png');
+  border-image-repeat: round;
+  border-image-slice: 5 40 0 40 fill; 
+  border-image-width: 5px 40px 0px 40px;
+}
+
+.letter-list-contain {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 16px;
+  margin-top: 4px;
+}
+
+.letter-list-box {
+  flex: 1;
+}
+
+.letter-list {
+  text-align: left;
+  font-family: "Yoster";
+  font-size: 18px;
+  color: #fc6acb;
+}
+
+.letter-list-title {
+  text-align: center; 
+  font-family: "Yoster";
+  font-size: 28px;
+  color: #fc6acb;
+}
+
+.letter-backbutton {
+  display: inline-block;
+  position: absolute;
+  
+  top: 86%;
+  width: 512px;
+  height: 96px;
+  
+  text-align: center;
+  
+  border-image: url('/home/asset/bigpinkbutton.png');
+  border-image-repeat: round;
+  border-image-slice: 96 48 0 48 fill; 
+  border-image-width: 96px 48px 0px 48px;
+}
+
+#flex-container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
