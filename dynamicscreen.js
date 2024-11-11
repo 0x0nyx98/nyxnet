@@ -17,6 +17,10 @@ function setScreenOffline() {
     screen.src = "asset/screen/offline.png";
 }
 
+function setScreenGit() {
+    screen.src = "asset/screen/git.png";
+}
+
 function noSignal() {
     screen.src = "asset/screen/staticanim.gif";
 }
@@ -30,5 +34,5 @@ btn2.addEventListener('mouseout', noSignal);
 btn3.addEventListener('mouseover', setScreenOffline);
 btn3.addEventListener('mouseout', noSignal);
 
-btn4.addEventListener('mouseover', setScreenOffline);
+btn4.addEventListener('mouseover', setScreenGit);
 btn4.addEventListener('mouseout', noSignal);
