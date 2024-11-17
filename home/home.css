@@ -29,7 +29,7 @@ img {
     -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
 }
 
-.bg {
+#bg {
   background-color: #543889; 
   color: black;
   font-family: Verdana;
@@ -85,7 +85,7 @@ img {
   color: black;
 }
 
-.main {
+#main {
   display: block;
   position: absolute;
   

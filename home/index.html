@@ -66,133 +66,62 @@
     <!-- The style.css file allows you to change the look of your web pages.
          If you include the next line in all your web pages, they will all share the same look.
          This makes it easier to make new pages for your site. -->
-    <link href="/home/home.css" rel="stylesheet" type="text/css" media="all">
-    <script type="module" src="/home/homepagemarquee.js"></script> 
+    <link href="home.css" rel="stylesheet" type="text/css" media="all">
+    <script type="module" src="homepagemarquee.js"></script> 
+    <script type="module" src="generate/use-home-template.js"></script> 
   </head>
-  <body class="bg">
-    <div class="backsky">
-    </div>
-  
-    <div id="theskymaybe"></div>
-    <img class="skypic" src='/home/asset/rainbow.png'>
-    <img class="skypic" src='/home/asset/logo.png'>
-  
-    <div id="container">
-      <div class="main">
-        <h1 id="welcome">≈♥ « welcome =^.^= » ♥≈</h1>
-        <p>im onyx and this is my web site :3</p>
-        
-        <p>still under construction! &gt;.&lt;</p>
-        
-        <div class="main-clip">
-          <span class="marquee" id="marquee">
-            <span class="marquee-scroll">
-              <span id="marquee-msg">obligatory marquee (turn on java scipt)</span>
-            </span>
-          </span>
-        </div>
-        
-        <p>im a purple foxgirl with lots of silly hobbies ^.^</p>
-        
-        <p>this website is just my purrsonal little place on the web :3<br>im just gonna decorate it to look like me and put allll the neat things i make here :3<br>i hope you like it ^.^<br></p>
-        
-        <p class="qblock">
-          update 11/9/24!<br>
-          officially moved from nyxnet.neocities.org to nyxnet.lgbt!!!! thank you sudaox & all at fremontnet &lt;3
-        </p>
-        
-        <p>heres some impurrtant stuff about mee :3</p>
-        
-        <p class="qblock">
-          uwu ) im awwwwwwwnyx :3 (formerly owonyx :3) ((actual name onyx but i like making silly web names :3))<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;│<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;├──* she/they pronouns :3<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;├──* im sort of a girl-like thing ♀♪♫♪♫<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;├──* part fox in a gender or therian-ish way &gt;w&lt;<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;≈≈≈<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;├──* am polyamorous !!! hav one girlfriend who i love v much ♥ ☻<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;├──* i enjoy lots of things! making art and coding and stuff :3<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;├──* i like to do age regression y things sometimes , it makes me hapby<br>
-          &nbsp;&nbsp;&nbsp;&nbsp;└──* my hair is very fluffy and scrunkly ,,-w-,,
-        </p>
-        
-        <p>lets be web friends! &gt;w&lt; you can add my button like this:</p>
-        <code>
-          &lt;a href="https://nyxnet.lgbt"&gt;<br>
-          &nbsp;&nbsp;&lt;img src="https://nyxnet.lgbt/home/asset/btn.png" alt="nyxnet! ^o^"&gt;<br>
-          &lt;/a&gt;
-        </code>
-        
-        <br>
-        <span><img src="/home/asset/neocities_sticker.png" onmouseover="this.src='/home/asset/neocities_sticker_hapby.png';" onmouseout="this.src='/home/asset/neocities_sticker.png';"></span>
-        <span style="display: inline-block; min-width: 64px"></span>
-        <span><img src="/home/asset/nyxnet_sticker.png" onmouseover="this.src='/home/asset/nyxnet_sticker_hapby.png';" onmouseout="this.src='/home/asset/nyxnet_sticker.png';"></span>
+  <body id="bg" onload="gen_template();">
+    <div id="main">
+      <h1 id="welcome">≈♥ « welcome =^.^= » ♥≈</h1>
+      <p>im onyx and this is my web site :3</p>
       
-        <br><br><br><br><div class="pad"> </div>
+      <p>still under construction! &gt;.&lt;</p>
+      
+      <div class="main-clip">
+        <span class="marquee" id="marquee">
+          <span class="marquee-scroll">
+            <span id="marquee-msg">obligatory marquee (turn on java scipt)</span>
+          </span>
+        </span>
       </div>
       
-      <span class="sbar-left">
-        <img src='/home/asset/sbar-label/buttons.png'>
-        <div class="btnwindow">
-          <div><br></div>
-          <div class="btncontainer">
-            <a href="/home">
-              <img src="/home/asset/btn.png" alt="mine >w<">
-            </a>
-          </div>
-          <div class="btncontainer">
-            <a href="http://www.mabsland.com/Adoption.html">
-              <img src="http://www.mabsland.com/Pandas/Censor_NYRc.gif" alt="site rating: pending">
-            </a>
-          </div>
-          <div class="btncontainer">
-            <a href="https://umeja.neocities.org">
-              <img src="https://umeja.neocities.org/umeja%20button%20new.png" alt="umeja :3" title="i love my slime wife">
-            </a>
-          </div>
-          <div class="btncontainer">
-            <img src="https://maia.crimew.gay/badges/slimesnow.png" alt="slug ca" title="i love my slime wife - Copy">
-          </div>
-          <div class="btncontainer">
-            <a href="https://motan.gay">
-              <img src="https://motan.gay/images/button.png" alt="motan :3">
-            </a>
-          </div>
-          <div class="btncontainer">
-            <a href="https://theplanetmercury.neocities.org">
-              <img src="https://theplanetmercury.neocities.org/mercury%20button.png" alt="mekuwi :3">
-            </a>
-          </div>
-          <div class="btncontainer">
-            <img src="https://maia.crimew.gay/badges/slugcat.png" alt="slug ca">
-          </div>
-          <div class="btncontainer">
-            <img src="https://maia.crimew.gay/badges/queer.png" alt="slug ca">
-          </div>
-          <div class="btncontainer">
-            <img src="https://maia.crimew.gay/badges/piracy.gif" alt="slug ca" title="piracy is pawsome thats why i pirated 4 of these buttons from maia crimews website">
-          </div>
-          <div class="btncontainer">
-            <a href="http://neocities.org">
-              <img src="/home/asset/neocitieseditor-nice.png" onmouseover="this.src='/home/asset/neocitieseditor.png';" onmouseout="this.src='/home/asset/neocitieseditor-nice.png';" alt="made with neocities ^w^">
-            </a>
-          </div>
-          <div><br></div>
-        </div>
-        <br><br><br><br><div class="pad"> </div>
-      </span>
+      <p>im a purple foxgirl with lots of silly hobbies ^.^</p>
       
-      <span class="sbar-right">
-        <img src='/home/asset/sbar-label/navigation.png'>
-        <div style="text-align: left">
-          <a href="/"><img src='/home/asset/icon/ribbon-purple.png'>gateway</a><br><hr>
-          <a href="/home/"><img src='/home/asset/icon/ribbon-purple.png'>home page</a><br>
-          <a href="https://en.pronouns.page/@awwnyx"><img src='/home/asset/icon/ribbon-purple.png'>whoami</a><br>
-          <a href="/home/bio.html"><img src='/home/asset/icon/ribbon-purple.png'>all abt me :3</a><br>
-          <!-- <a href="/home/dlog"><img src='/home/asset/icon/ribbon-purple.png'>dog log</a><br> -->
-         <br><br><br><div class="pad"> </div>
-        </div>
-      </span>
+      <p>this website is just my purrsonal little place on the web :3<br>im just gonna decorate it to look like me and put allll the neat things i make here :3<br>i hope you like it ^.^<br></p>
+      
+      <p class="qblock">
+        update 11/9/24!<br>
+        officially moved from nyxnet.neocities.org to nyxnet.lgbt!!!! thank you sudaox & all at fremontnet &lt;3
+      </p>
+      
+      <p>heres some impurrtant stuff about mee :3</p>
+      
+      <p class="qblock">
+        uwu ) im awwwwwwwnyx :3 (formerly owonyx :3) ((actual name onyx but i like making silly web names :3))<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;│<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;├──* she/they pronouns :3<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;├──* im sort of a girl-like thing ♀♪♫♪♫<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;├──* part fox in a gender or therian-ish way &gt;w&lt;<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;≈≈≈<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;├──* am polyamorous !!! hav one girlfriend who i love v much ♥ ☻<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;├──* i enjoy lots of things! making art and coding and stuff :3<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;├──* i like to do age regression y things sometimes , it makes me hapby<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;└──* my hair is very fluffy and scrunkly ,,-w-,,
+      </p>
+      
+      <p>lets be web friends! &gt;w&lt; you can add my button like this:</p>
+      <code>
+        &lt;a href="https://nyxnet.lgbt"&gt;<br>
+        &nbsp;&nbsp;&lt;img src="https://nyxnet.lgbt/home/asset/btn.png" alt="nyxnet! ^o^"&gt;<br>
+        &lt;/a&gt;
+      </code>
+      
+      <br>
+      <span><img src="/home/asset/neocities_sticker.png" onmouseover="this.src='/home/asset/neocities_sticker_hapby.png';" onmouseout="this.src='/home/asset/neocities_sticker.png';"></span>
+      <span style="display: inline-block; min-width: 64px"></span>
+      <span><img src="/home/asset/nyxnet_sticker.png" onmouseover="this.src='/home/asset/nyxnet_sticker_hapby.png';" onmouseout="this.src='/home/asset/nyxnet_sticker.png';"></span>
+    
+      <br><br><br><br><div class="pad"> </div>
     </div>
   </body>
 </html>

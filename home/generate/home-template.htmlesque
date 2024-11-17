@@ -1,0 +1,75 @@
+<div class="backsky">
+    </div>
+  
+    <div id="theskymaybe"></div>
+    <img class="skypic" src='/home/asset/rainbow.png'>
+    <img class="skypic" src='/home/asset/logo.png'>
+  
+    <div id="container">
+      <div id="main">
+        
+      </div>
+      
+      <span class="sbar-left">
+        <img src='/home/asset/sbar-label/buttons.png'>
+        <div class="btnwindow">
+          <div><br></div>
+          <div class="btncontainer">
+            <a href="/home">
+              <img src="/home/asset/btn.png" alt="mine >w<">
+            </a>
+          </div>
+          <div class="btncontainer">
+            <a href="http://www.mabsland.com/Adoption.html">
+              <img src="http://www.mabsland.com/Pandas/Censor_NYRc.gif" alt="site rating: pending">
+            </a>
+          </div>
+          <div class="btncontainer">
+            <a href="https://umeja.neocities.org">
+              <img src="https://umeja.neocities.org/umeja%20button%20new.png" alt="umeja :3" title="i love my slime wife">
+            </a>
+          </div>
+          <div class="btncontainer">
+            <img src="https://maia.crimew.gay/badges/slimesnow.png" alt="slug ca" title="i love my slime wife - Copy">
+          </div>
+          <div class="btncontainer">
+            <a href="https://motan.gay">
+              <img src="https://motan.gay/images/button.png" alt="motan :3">
+            </a>
+          </div>
+          <div class="btncontainer">
+            <a href="https://theplanetmercury.neocities.org">
+              <img src="https://theplanetmercury.neocities.org/mercury%20button.png" alt="mekuwi :3">
+            </a>
+          </div>
+          <div class="btncontainer">
+            <img src="https://maia.crimew.gay/badges/slugcat.png" alt="slug ca">
+          </div>
+          <div class="btncontainer">
+            <img src="https://maia.crimew.gay/badges/queer.png" alt="slug ca">
+          </div>
+          <div class="btncontainer">
+            <img src="https://maia.crimew.gay/badges/piracy.gif" alt="slug ca" title="piracy is pawsome thats why i pirated 4 of these buttons from maia crimews website">
+          </div>
+          <div class="btncontainer">
+            <a href="http://neocities.org">
+              <img src="/home/asset/neocitieseditor-nice.png" onmouseover="this.src='/home/asset/neocitieseditor.png';" onmouseout="this.src='/home/asset/neocitieseditor-nice.png';" alt="made with neocities ^w^">
+            </a>
+          </div>
+          <div><br></div>
+        </div>
+        <br><br><br><br><div class="pad"> </div>
+      </span>
+      
+      <span class="sbar-right">
+        <img src='/home/asset/sbar-label/navigation.png'>
+        <div style="text-align: left">
+          <a href="/"><img src='/home/asset/icon/ribbon-purple.png'>gateway</a><br><hr>
+          <a href="/home/"><img src='/home/asset/icon/ribbon-purple.png'>home page</a><br>
+          <a href="https://en.pronouns.page/@awwnyx"><img src='/home/asset/icon/ribbon-purple.png'>whoami</a><br>
+          <a href="/home/bio.html"><img src='/home/asset/icon/ribbon-purple.png'>all abt me :3</a><br>
+          <!-- <a href="/home/dlog"><img src='/home/asset/icon/ribbon-purple.png'>dog log</a><br> -->
+         <br><br><br><div class="pad"> </div>
+        </div>
+      </span>
+    </div>
