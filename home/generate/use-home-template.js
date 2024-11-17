@@ -6,3 +6,5 @@ async function gen_template() {
     document.getElementById("bg").innerHTML = pagebase;
     document.getElementById("main").innerHTML = pagecontent;
 }
+
+window.onload = gen_template;
