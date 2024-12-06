@@ -1,0 +1,1 @@
+var mobileBrowserFlag = typeof screen.orientation !== 'undefined';
