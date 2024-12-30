@@ -3,7 +3,7 @@
   
     <div id="theskymaybe"></div>
     <img class="skypic" src='/home/asset/rainbow.png'>
-    <img class="skypic" src='/home/asset/logo.png'>
+    <a href="/home"><img class="skypic" src='/home/asset/logo.png'></a>
   
     <div id="container">
       <div id="main">
